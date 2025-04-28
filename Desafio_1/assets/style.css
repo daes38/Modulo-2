@@ -1,0 +1,98 @@
+* {
+    margin: 0.10rem;
+    padding: 0.10rem;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: rgb(201, 201, 244);
+}
+
+.chat {
+    display: flex;
+    justify-content:space-between;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(242, 132, 22, 0.69);
+    border-radius: 0.5rem;
+
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2rem;
+    padding: 1rem;
+    background: rgb(235, 235, 243);
+    border-radius: 5px;
+    height: 2rem;
+
+}
+
+.info {
+    display: flex;
+
+}
+
+.status img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 0 0.5px 0;
+}
+
+.boton button:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.list {
+    list-style: none;
+    flex-grow: 1;
+    margin: 0 0 1rem 0;
+    padding: 0;
+}
+
+.friends {
+    display: flex;
+}
+
+.list img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0.25rem 0;
+    gap: 2rem;
+    padding: 1rem;
+    background: rgb(235, 235, 243);
+    border-radius: 5px;
+    height: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
